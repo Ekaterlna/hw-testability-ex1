@@ -4,8 +4,7 @@ public class BonusMilesService {
             int bonusMileRub = 20;
             int bonusTicket = a / bonusMileRub;
             return bonusTicket;
-        }
-        else  {
+        } else {
             return 0;
         }
     }
